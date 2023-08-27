@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import profile from '../../Assets/Navbar/profile.svg';
+import profile from'../../assets/Navbar/profile.svg';
 import { useRouter } from 'next/router';
 import Cookies from 'js-cookie';
 
