@@ -1,0 +1,13 @@
+<svg id="Component_74_1" data-name="Component 74 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 13 13">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2643" data-name="Rectangle 2643" width="13" height="13" transform="translate(0 -0.455)" fill="#404040"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(0 0.455)" clip-path="url(#clip-path)">
+    <g id="__TEMP__SVG__" transform="translate(0.946 -0.185)">
+      <path id="Path_552" data-name="Path 552" d="M13.309,2H6.866A1.29,1.29,0,0,0,5.577,3.289V7.155H4.289A1.29,1.29,0,0,0,3,8.443v5.8a.644.644,0,0,0,.644.644H13.954a.644.644,0,0,0,.644-.644V3.289A1.29,1.29,0,0,0,13.309,2ZM4.289,8.443H8.155V13.6H4.289ZM13.309,13.6H9.443V8.443A1.29,1.29,0,0,0,8.155,7.155H6.866V3.289h6.443Z" transform="translate(-3 -2)" fill="#404040"/>
+      <path id="Path_553" data-name="Path 553" d="M9.577,6h1.289V7.289H9.577Zm2.577,0h1.289V7.289H12.155Zm0,2.6h1.289V9.866H12.155Zm0,2.557h1.289v1.289H12.155ZM7,11.155H8.289v1.289H7Z" transform="translate(-4.423 -3.423)" fill="#404040"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="Component_79_3" data-name="Component 79 – 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 13 13">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2648" data-name="Rectangle 2648" width="13" height="13" transform="translate(0 2.495)" fill="#404040"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5181" data-name="Mask Group 5181" transform="translate(0 -2.495)" clip-path="url(#clip-path)">
+    <g id="__TEMP__SVG__" transform="translate(-0.896 2.047)">
+      <path id="Path_40609" data-name="Path 40609" d="M11.655,7.435V6.276h-.9V7.621a.448.448,0,0,0,.131.317L12.1,9.151v.711H2.241V9.151L3.455,7.938a.448.448,0,0,0,.131-.317V5.828a3.579,3.579,0,0,1,5.379-3.1v-1a4.436,4.436,0,0,0-1.345-.357V.448h-.9v.919A4.489,4.489,0,0,0,2.69,5.828V7.435L1.476,8.649a.448.448,0,0,0-.131.317V10.31a.448.448,0,0,0,.448.448H4.931v.448a2.241,2.241,0,1,0,4.483,0v-.448h3.138A.448.448,0,0,0,13,10.31V8.966a.448.448,0,0,0-.131-.317ZM8.517,11.207a1.345,1.345,0,1,1-2.69,0v-.448h2.69Z" fill="#404040"/>
+      <circle id="Ellipse_150" data-name="Ellipse 150" cx="1.793" cy="1.793" r="1.793" transform="translate(9.862 1.793)" fill="#404040"/>
+    </g>
+  </g>
+</svg>
