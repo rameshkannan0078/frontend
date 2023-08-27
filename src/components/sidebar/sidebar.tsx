@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../Assets/Navbar/logo.svg';
-import profile from '../../Assets/Navbar/profile.svg';
+import logo from '../../assets/Navbar/logo.svg';
 import Image from 'next/image';
 import { SidebarOptionValue, sidebarOptions, sidebarPaths } from './sidebarConstants';
 import { useRouter } from 'next/router';
