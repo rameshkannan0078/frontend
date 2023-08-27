@@ -7,6 +7,7 @@ import { useSelectedSidebarOption } from '@/context/useSidebarOption/useSidebarO
 import PrIcon from '../common/PrIcon/PrIcon';
 import PrIconV2 from '../common/PrIcon/PrIconV2';
 import ProfileArea from './profileArea';
+import PrCircularProgressIndicator from '../common/Loader/PrCircularProgressIndicator';
 
 
 
@@ -21,16 +22,21 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
     const { selectedOption, updateSelectedOption } = useSelectedSidebarOption();
-
-    const router=useRouter();
- 
-    const handleOptionClick = (optionValue: SidebarOptionValue) => {
-        router.push(sidebarPaths[optionValue]);
-        updateSelectedOption(optionValue);
+    const [loader, setLoader] = useState(false); // Step 1: Initialize loading state
   
-      
+    const router = useRouter();
+  
+    const handleOptionClick = async (optionValue: SidebarOptionValue) => {
+      try {
+        setLoader(true); 
+        await router.push(sidebarPaths[optionValue]);
+        updateSelectedOption(optionValue);
+      } catch (error) {
+      } finally {
+        setLoader(false);
+      }
     };
-    
+  
 
     return (
         <div className="flex h-screen overflow-hidden">
@@ -75,11 +81,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 </div>
             </aside>
             <main className="flex-1 bg-[#f6f7fa] w-full h-full">
-             <ProfileArea></ProfileArea>
-                <div >
-                {children}
-                </div>
-            </main>
+        <ProfileArea />
+        {loader ? (
+          <div className="flex justify-center items-center h-full">
+            <PrCircularProgressIndicator></PrCircularProgressIndicator>
+          </div>
+        ) : (
+          <div>{children}</div>
+        )}
+      </main>
         </div>
     );
 };
